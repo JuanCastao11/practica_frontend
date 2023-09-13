@@ -1,0 +1,59 @@
+*{margin: 0;width: 100%; padding: 0; box-sizing: border-box;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: inherit; text-decoration: none; }
+@font-face {font-family: elegant  ;src: url(./assets/elegant_sans/Elegant\ Sans\ Light.ttf);}
+header{
+  width: 20%;
+  text-align: center;
+  padding: 40px;
+  background-color: #e36414;
+  color: white;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+}
+.container{
+  width: 100%;
+}
+li{ 
+  text-align: left;
+  font-size: 13px;
+  padding: 10px;
+  width: 49%;
+  height: 1%;
+  margin: 20px;
+}
+ul{
+
+  list-style: none;
+  margin-top: 30px;
+  
+}
+.Dashboard{
+  width:100%;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  color: #e36414;
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.title{
+  font-size: 22px;
+}
+.Bicube {
+  font-size: 25px;
+  
+}
+.textoDash{
+  margin-right: 90px;
+  
+}
+li:hover{
+  border: solid;
+  border-radius: 30px;
+}
+.Dashboard:hover{
+  background-color: rgb(231, 191, 115);
+}
